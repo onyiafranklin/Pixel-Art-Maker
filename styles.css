@@ -2,7 +2,9 @@
 body {
 
     text-align: center;
-    background-image:url("https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/1732993/1024/512/m1/fpnw/wm1/game_background_74-.jpg?1475749111&s=5cf94b67675e30296b01a35000a288ed");
+    background-image: linear-gradient(to bottom, #83d1c7, #9cdbe3, #bee3f4, #deecfc, #f7f8ff);
+    
+    /*background-image:url("https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/1732993/1024/512/m1/fpnw/wm1/game_background_74-.jpg?1475749111&s=5cf94b67675e30296b01a35000a288ed");*/
 }
 
 h1 {
@@ -31,11 +33,11 @@ table {
 }
 
 tr {
-    height: 40px;
+    height: 20px;
 }
 
 td {
-    width: 40px;
+    width: 20px;
 }
 
 input[type=number] {
