@@ -10,9 +10,9 @@ const table=$('#pixelCanvas');
 * @param {number} gridHeightValue - The height of the grid.
 */
 function makeGrid(gridWidthValue,gridHeightValue) {
-		 const size={
-					 gridWidthValue:$('#inputWeight').val(),//width of grid
-					 gridHeightValue:$('#inputHeight').val()//height of grid
+	 const size={
+					gridWidthValue:$('#inputWidth').val(),//width of grid
+					gridHeightValue:$('#inputHeight').val()//height of grid
 		}
 				table.find('tr').remove();//remove any previous table that was there before creating a new one will be formed
 			for ( let x=1; x<=size.gridWidthValue;x++){// we form the table row first (tr)
